@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Bouncing ball</title>
+    <style>
+        body{background-color: rgb(109, 61, 61);}
+    </style>
+    </head>
+    <body>
+        <hr size = 5 width = 1400 color = "black">
+        <canvas id="canvas" width="1400" height="650"></canvas>
+        <hr size = 5 width = 1400 color = "black">
+        <script src= "dropBallWithMovement.js"></script>
+        <input id="myButton" type="button" onclick='init()' value="Drop Ball" />
+        <button onclick='pause()'>Pause</button>
+        <button onclick = 'reset()'>Reset</button>
+        <button onclick = 'slowDown()'> Slow Down </button>
+    </body>
+</html>
